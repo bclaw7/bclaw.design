@@ -1,41 +1,46 @@
 @font-face {
-    font-family: 'LibreBarcode';
-    src: url('/assets/LibreBarcode39ExtendedText-Regular.ttf');
+    font-family: "LibreBarcode";
+    src: url("/assets/LibreBarcode39ExtendedText-Regular.ttf");
 }
+
 @font-face {
     font-family: Modak;
-    src: url('/assets/Modak-Regular.ttf');
+    src: url("/assets/Modak-Regular.ttf");
 }
+
 body {
     margin: 0;
     padding: 0;
     background-color: #111;
 }
+
 .nav ul {
     list-style: none;
     background-color: rgb(34, 34, 34);
-    
-    
     text-align: center;
-    
     padding: 0;
     margin: 0;
+    overflow: auto;
 }
+
 .nav li {
     font-family: Modak;
     font-size: 2em;
     line-height: 40px;
     height: 40px;
 }
+
 .nav a {
     text-decoration: none;
     color: rgb(133, 64, 222);
     display: block;
 }
+
 .nav a:hover {
     background-color: rgba(166, 0, 0, 0.341);
-    transition: .5s background-color;
+    transition: 0.5s background-color;
 }
+
 img {
     width: 100%;
     max-width: 999px;
@@ -45,15 +50,18 @@ img {
     margin-right: auto;
     margin-top: -33px;
 }
+
 .contact {
     font-family: LibreBarcode;
     font-size: 333%;
     text-align: center;
 }
+
 .contact a:hover {
     color: rgba(139, 0, 0, 0.423);
-    transition: .5s color;
+    transition: 0.5s color;
 }
+
 @media screen and (min-width: 600px) {
     .nav li {
         width: 120px;
