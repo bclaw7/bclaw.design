@@ -1,6 +1,6 @@
 @font-face {
     font-family: "LibreBarcode";
-    src: url("/assets/LibreBarcode39ExtendedText-Regular.ttf");
+    src: url("/bclaw.design/assets/LibreBarcode39ExtendedText-Regular.ttf");
 }
 
 @font-face {
@@ -12,14 +12,13 @@ body {
     background-color: #111;
 }
 
+.form {
+    color: seashell;
+    max-width: 720px;
+}
 
 .contact {
     font-family: LibreBarcode;
     font-size: 222%;
-    text-align: center;
 }
 
-.contact a:hover {
-    color: rgba(139, 0, 0, 0.423);
-    transition: 0.5s color;
-}
