@@ -14,11 +14,16 @@ body {
 
 .form {
     color: seashell;
-    max-width: 720px;
 }
 
 .contact {
+    color: seashell;
     font-family: LibreBarcode;
     font-size: 222%;
+}
+
+.footer {
+    color: rgb(154, 154, 154);
+    margin-top: 2rem;
 }
 

@@ -68,25 +68,33 @@
     <div class="text-center">
         <img class="img-fluid" src="/bclaw.design/assets/bloody-web-design-logo.png" alt="Bloody logo">
     </div>
-
-    <form action="submit" class="form">
-        <div class="input-group">
-            <span class="input-group-text">First and Last name</span>
-            <input type="text" aria-label="First name" class="form-control">
-            <input type="text" aria-label="Last name" class="form-control">
+    <div class="container">
+        <form method="POST" name="contact_form" action="contact-form-handler.php" class="form">
+            <div class="input-group">
+                <span class="input-group-text">First and Last name</span>
+                <input type="text" aria-label="First name" class="form-control">
+                <input type="text" aria-label="Last name" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label"></label>
+                <input type="email" class="form-control" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="textarea" class="form-label">Say hello! Tell me what you think. Let me know how I can help
+                    you. You know of a problem, I will solve it.</label>
+                <textarea class="form-control" rows="3"></textarea>
+            </div>
+            <button type="button" class="btn btn-secondary btn-lg, contact">Submit</button>
+        </form>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">&copy; Copyright 2021 bclaw.design</div>
+                <div class="col">Design by <a href="http://bclaw.surge.sh/">Byron Cole Lawlis</a></div>
+            </div>
         </div>
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"></label>
-            <input type="email" class="form-control" placeholder="name@example.com">
-        </div>
-        <div class="mb-3">
-            <label for="textarea" class="form-label">Say hello! Tell me what you think. Let me know how I can help
-                you.</label>
-            <textarea class="form-control" rows="3"></textarea>
-        </div>
-        <button type="button" class="contact">Submit</button>
-    </form>
-
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
     </script>
