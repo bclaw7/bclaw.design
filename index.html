@@ -70,11 +70,14 @@
     </div>
     <div class="container">
         <form method="POST" name="contact_form" action="contact-form-handler.php" class="form">
-            <div class="input-group">
-                <span class="input-group-text">First and Last name</span>
-                <input type="text" aria-label="First name" class="form-control">
-                <input type="text" aria-label="Last name" class="form-control">
-            </div>
+            <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+              </div>
             <div class="mb-3">
                 <label class="form-label"></label>
                 <input type="email" class="form-control" placeholder="name@example.com">
@@ -89,9 +92,9 @@
     </div>
     <footer class="footer">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col">&copy; Copyright 2021 bclaw.design</div>
-                <div class="col">Design by <a href="http://bclaw.surge.sh/">Byron Cole Lawlis</a></div>
+            <div class="row justify-content-md-center">
+                <div class="col-md-auto">&copy; Copyright 2021 bclaw.design</div>
+                <div class="col-md-auto">Design by <a class="surge" href="http://bclaw.surge.sh/">Byron Cole Lawlis</a></div>
             </div>
         </div>
     </footer>

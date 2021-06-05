@@ -23,7 +23,11 @@ body {
 }
 
 .footer {
-    color: rgb(154, 154, 154);
-    margin-top: 2rem;
+    color: rgb(59, 59, 59);
+    margin: 2rem;
+}
+.surge {
+    color: rgb(59, 59, 59);
+    background-color: transparent;
 }
 
