@@ -1,13 +1,13 @@
 @font-face {
     font-family: "LibreBarcode";
-    src: url("/bclaw.design/fonts/LibreBarcode39ExtendedText-Regular.ttf");
+    src: url("/bclaw-design/fonts/LibreBarcode39ExtendedText-Regular.ttf");
 }
 
 body {
     background-color: #111;
 }
 
-.section-title {
+h2.section-title {
     color: seashell;
 }
 
