@@ -1,11 +1,6 @@
 @font-face {
     font-family: "LibreBarcode";
-    src: url("/bclaw.design/assets/LibreBarcode39ExtendedText-Regular.ttf");
-}
-
-@font-face {
-    font-family: Modak;
-    src: url("/assets/Modak-Regular.ttf");
+    src: url("/bclaw.design/fonts/LibreBarcode39ExtendedText-Regular.ttf");
 }
 
 body {
