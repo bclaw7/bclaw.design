@@ -5,18 +5,10 @@
 
 body {
     background-color: #111;
-}
-
-h2.section-title {
-    color: seashell;
-}
-
-.form {
     color: seashell;
 }
 
 .contact {
-    color: seashell;
     font-family: LibreBarcode;
     font-size: 222%;
 }
