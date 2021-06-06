@@ -12,6 +12,10 @@ body {
     background-color: #111;
 }
 
+.section-title {
+    color: seashell;
+}
+
 .form {
     color: seashell;
 }
